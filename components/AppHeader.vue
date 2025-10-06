@@ -1,24 +1,3 @@
-<script setup lang="ts">
-import type { NavigationMenuItem } from "@nuxt/ui";
-
-const route = useRoute();
-
-const items = computed<NavigationMenuItem[]>(() => [
-  {
-    label: "Home",
-    to: "/",
-    active: route.path === "/", // Faqat asosiy sahifa uchun
-    class: route.path === "/" ? "custom-active" : "", // Maxsus sinf faqat asosiy sahifa uchun
-    
-  },{
-    label: "Settings",
-    to: "/settings",
-    active: route.path.startsWith("/settings"), // Settings va uning ost sahifalari uchun
-    class: route.path.startsWith("/settings") ? "custom-active" : "", // Maxsus sinf Settings va uning ost sahifalari uchun
-  },
-]);
-</script>
-
 <template>
   <UHeader>
     <template #title>
@@ -29,8 +8,6 @@ const items = computed<NavigationMenuItem[]>(() => [
       </h3>
     </template>
 
-    <UNavigationMenu :items="items" class="flex items-center justify-cener gap-2"/>
-
     <template #right>
       <UColorModeButton />
 
@@ -38,20 +15,12 @@ const items = computed<NavigationMenuItem[]>(() => [
         <UButton
           color="neutral"
           variant="ghost"
-          to="https://github.com/nuxt/ui"
+          to="https://github.com/SMwebdeveloper/InsightBoard"
           target="_blank"
           icon="i-simple-icons-github"
           aria-label="GitHub"
         />
       </UTooltip>
     </template>
-
-    <template #body>
-      <UNavigationMenu :items="items" orientation="vertical" class="-mx-2.5" />
-    </template>
   </UHeader>
 </template>
-
-<style scoped>
-
-</style>
