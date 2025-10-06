@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+/* Active navigation item styles */
+.navigation-menu-item[data-active="true"] {
+  @apply bg-transparent text-slate-600 dark:text-slate-400 border-slate-200 dark:border-slate-700;
+}
+
+.navigation-menu-item[data-active="true"] .navigation-menu-item-icon {
+  @apply text-slate-600 dark:text-slate-400;
+}
+
+/* Custom active styles */
+.custom-active {
+  @apply bg-transparent text-white shadow-lg;
+}
+
+.custom-active .navigation-menu-item-icon {
+  @apply text-white;
+}
