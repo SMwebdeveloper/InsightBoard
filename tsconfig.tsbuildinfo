@@ -1,0 +1,1 @@
+{"root":["./.nuxt/nuxt.d.ts","./app.vue","./nuxt.config.ts","./components/AppHeader.vue","./components/DateFilter.vue","./layouts/default.vue","./pages/index.vue","./server/api/sales.get.ts","./store/sales.ts","./types/index.ts","./.nuxt/nuxt.node.d.ts"],"errors":true,"version":"5.9.3"}

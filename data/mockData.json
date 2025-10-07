@@ -7,14 +7,5 @@
     { "date": "2024-06-03", "amount": 900, "category": "Одежда" },
     { "date": "2024-06-03", "amount": 2000, "category": "Электроника" },
     { "date": "2024-06-04", "amount": 700, "category": "Книги" }
-  ],
-  "userActivity": [
-    { "date": "2024-01-01", "activeUsers": 45, "newUsers": 12, "sessions": 67 },
-    { "date": "2024-01-02", "activeUsers": 52, "newUsers": 15, "sessions": 78 },
-    { "date": "2024-01-03", "activeUsers": 48, "newUsers": 10, "sessions": 72 },
-    { "date": "2024-01-04", "activeUsers": 61, "newUsers": 18, "sessions": 89 },
-    { "date": "2024-01-05", "activeUsers": 55, "newUsers": 14, "sessions": 81 },
-    { "date": "2024-01-06", "activeUsers": 68, "newUsers": 22, "sessions": 95 },
-    { "date": "2024-01-07", "activeUsers": 72, "newUsers": 20, "sessions": 102 }
   ]
 }
