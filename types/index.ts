@@ -11,11 +11,12 @@ export interface Metrics {
   uniqueUsers: number;
 }
 
-export interface SalesResponse {
-  sales: Sale[];
-  metrics: Metrics;
+export interface MetricsData {
+  title: string;
+  value: number | string;
+  icon: string;
+  color: "green" | "blue" | "purple" | "yellow" | "red";
 }
-
 export type Period = "today" | "week" | "month" | "year" | "custom" | "all";
 
 export interface CustomDateRange {
