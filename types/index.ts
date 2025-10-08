@@ -17,7 +17,8 @@ export interface MetricsData {
   icon: string;
   color: "green" | "blue" | "purple" | "yellow" | "red";
 }
-export type Period = "today" | "week" | "month" | "year" | "custom" | "all";
+export type Period = "today" | "week" | "month" | "custom" | "all";
+export type Category = "all" | "Электроника" | "Одежда" | "Книги";
 
 export interface CustomDateRange {
   startDate: string;

@@ -1,11 +1,20 @@
 {
   "sales": [
-    { "date": "2024-06-01", "amount": 1200, "category": "Электроника" },
-    { "date": "2024-06-01", "amount": 800, "category": "Одежда" },
-    { "date": "2024-06-02", "amount": 1500, "category": "Электроника" },
-    { "date": "2024-06-02", "amount": 600, "category": "Книги" },
-    { "date": "2024-06-03", "amount": 900, "category": "Одежда" },
-    { "date": "2024-06-03", "amount": 2000, "category": "Электроника" },
-    { "date": "2024-06-04", "amount": 700, "category": "Книги" }
+    { "date": "2025-10-01", "amount": 1200, "category": "Электроника" },
+    { "date": "2025-10-02", "amount": 800, "category": "Одежда" },
+    { "date": "2025-10-03", "amount": 1500, "category": "Электроника" },
+    { "date": "2025-10-03", "amount": 600, "category": "Книги" },
+    { "date": "2025-10-04", "amount": 900, "category": "Одежда" },
+    { "date": "2025-10-04", "amount": 2000, "category": "Электроника" },
+    { "date": "2025-10-05", "amount": 700, "category": "Книги" },
+    { "date": "2025-10-06", "amount": 1200, "category": "Электроника" },
+    { "date": "2025-10-06", "amount": 800, "category": "Одежда" },
+    { "date": "2025-10-07", "amount": 1500, "category": "Электроника" },
+    { "date": "2025-10-08", "amount": 600, "category": "Книги" },
+    { "date": "2025-10-09", "amount": 900, "category": "Одежда" },
+    { "date": "2025-10-10", "amount": 2000, "category": "Электроника" },
+    { "date": "2025-10-11", "amount": 700, "category": "Книги" },
+    { "date": "2025-10-12", "amount": 1700, "category": "Одежда" },
+    { "date": "2025-10-13", "amount": 2600, "category": "Электроника" }
   ]
 }

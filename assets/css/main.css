@@ -1,3 +1,68 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
+/* Light theme */
+.custom-tooltip.light-tooltip {
+  background: #f8f8f8;
+  border: 1px solid #e5e7eb;
+  color: #0F172B;
+}
 
+.custom-tooltip.light-tooltip .tooltip-header {
+  border-bottom: 1px solid #e5e7eb;
+  color: #0F172B;
+}
+
+.custom-tooltip.light-tooltip .tooltip-body {
+  color: #4b5563;
+}
+
+/* Dark theme */
+.custom-tooltip.dark-tooltip {
+  background: #0F172B;
+  border: 1px solid #374151;
+  color: #f8f8f8;
+}
+
+.custom-tooltip.dark-tooltip .tooltip-header {
+  border-bottom: 1px solid #374151;
+  color: #f8f8f8;
+}
+
+.custom-tooltip.dark-tooltip .tooltip-body {
+  color: #d1d5db;
+}
+
+/* Common styles */
+.custom-tooltip {
+  border-radius: 6px;
+  padding: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  min-width: 200px;
+}
+
+.custom-tooltip .tooltip-header {
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.custom-tooltip .tooltip-body {
+  font-size: 13px;
+}
+
+.custom-tooltip .total-amount {
+  color: #7c3aed;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.custom-tooltip .categories {
+  margin-bottom: 4px;
+}
+
+.custom-tooltip .transactions {
+  font-size: 12px;
+  opacity: 0.8;
+}

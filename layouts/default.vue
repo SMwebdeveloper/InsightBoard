@@ -1,11 +1,10 @@
 <template>
-    <UTooltipProvider>
-
-        <UApp>
-            <AppHeader/>
-            <UContainer>
-                <slot/>
-            </UContainer>
-        </UApp>
-    </UTooltipProvider>
+  <div>
+    <UApp>
+      <AppHeader />
+      <UContainer class="space-y-6 py-6">
+        <slot />
+      </UContainer>
+    </UApp>
+  </div>
 </template>
