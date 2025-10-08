@@ -117,10 +117,6 @@ const handleCategoriesUpdate = (value: any) => {
     store.setCategory("all");
   }
 };
-const applyFilters = () => {
-  // Apply filter logic here
-  console.log('Applying filters...')
-}
 
 const clearFilters = () => {
   store.setPeriod('all')

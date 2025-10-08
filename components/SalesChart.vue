@@ -55,11 +55,11 @@ const chartData = computed(() => {
 
   // update date formate
   const formattedDates = dates.map((date) => {
-    const d = new Date(date);
-    const day = d.getDate();
-    const month = d.toLocaleString("ru-RU", { month: "short" });
-    return `${day} ${month}`;
-  });
+  const d = new Date(date);
+  const day = d.getDate();
+  const month = d.toLocaleString('ru-RU', { month: 'short' });
+  return `${day} ${month}`;
+});
   return {
     options: {
       chart: {
@@ -89,7 +89,7 @@ const chartData = computed(() => {
             colors: "#6b7280",
             fontSize: "12px",
           },
-          formatter: (val: number) => `${val.toLocaleString()} сум`,
+          formatter: (val: number) => `${val.toLocaleString()} $`,
         },
         forceNiceScale: true,
       },
@@ -115,7 +115,7 @@ const chartData = computed(() => {
               </div>
               <div class="tooltip-body">
                 <div class="total-amount">
-                  💰 ${value.toLocaleString()} сум
+                  💰 ${value.toLocaleString()} $
                 </div>
                 <div class="categories">
                   📊 ${categories.join(", ")}

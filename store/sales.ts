@@ -48,8 +48,9 @@ export const useSalesStore = defineStore("sales", {
       // Custom bo'lmagan periodda dateRange ni tozalash
       if (period !== "custom") {
         this.dateRange = { startDate: "", endDate: "" };
+        this.fetchSales();
       }
-      this.fetchSales();
+      
     },
 
     setCategory(category: string) {

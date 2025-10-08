@@ -62,7 +62,7 @@ const metricsData: MetricsData[] = [
     color: "yellow",
   },
   {
-    title: "Unique Users",
+    title: "Уникальные пользователи",
     value: 75,
     icon: "i-heroicons-users",
     color: "purple",
