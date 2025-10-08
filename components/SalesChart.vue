@@ -1,5 +1,5 @@
 <template>
-  <div class="border border-slate-200 p-4 rounded-2xl shadow">
+  <div class="border border-slate-200 p-4 min-h-[300px] rounded-2xl shadow">
     <ClientOnly>
       <apexchart
         v-if="
